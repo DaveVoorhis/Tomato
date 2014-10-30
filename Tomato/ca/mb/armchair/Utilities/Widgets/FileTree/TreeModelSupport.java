@@ -1,0 +1,66 @@
+/*
+ * TreeModelSupport.java
+ *
+ * Created on October 29, 2002, 9:06 PM
+ */
+
+package ca.mb.armchair.Utilities.Widgets.FileTree;
+
+import javax.swing.tree.*;
+import javax.swing.event.*;
+import java.util.*;
+
+/**
+ * Tree Model listener support
+ *
+ * @author  http://java.sun.com/products/jfc/tsc/articles/jtree/
+ * @author  Dave Voorhis
+ */
+
+public class TreeModelSupport {
+   private Vector vector = new Vector();
+
+   public void addTreeModelListener( TreeModelListener listener ) {
+      if ( listener != null && !vector.contains( listener ) ) {
+         vector.addElement( listener );
+      }
+   }
+
+   public void removeTreeModelListener( TreeModelListener listener ) {
+      if ( listener != null ) {
+         vector.removeElement( listener );
+      }
+   }
+
+   public void fireTreeNodesChanged( TreeModelEvent e ) {
+      Enumeration listeners = vector.elements();
+      while ( listeners.hasMoreElements() ) {
+         TreeModelListener listener = (TreeModelListener)listeners.nextElement();
+         listener.treeNodesChanged( e );
+      }
+   }
+
+   public void fireTreeNodesInserted( TreeModelEvent e ) {
+      Enumeration listeners = vector.elements();
+      while ( listeners.hasMoreElements() ) {
+         TreeModelListener listener = (TreeModelListener)listeners.nextElement();
+         listener.treeNodesInserted( e );
+      }
+   }
+
+   public void fireTreeNodesRemoved( TreeModelEvent e ) {
+      Enumeration listeners = vector.elements();
+      while ( listeners.hasMoreElements() ) {
+         TreeModelListener listener = (TreeModelListener)listeners.nextElement();
+         listener.treeNodesRemoved( e );
+      }
+   }
+
+   public void fireTreeStructureChanged( TreeModelEvent e ) {
+      Enumeration listeners = vector.elements();
+      while ( listeners.hasMoreElements() ) {
+         TreeModelListener listener = (TreeModelListener)listeners.nextElement();
+         listener.treeStructureChanged( e );
+      }
+   }
+}

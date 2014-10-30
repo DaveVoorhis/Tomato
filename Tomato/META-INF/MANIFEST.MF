@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: .
+Created-By: 1.4.1-rc (Sun Microsystems Inc.)
+Main-Class: Tomato
+

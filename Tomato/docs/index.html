@@ -1,0 +1,296 @@
+<html>
+<head>
+<title>Tomato</title>
+</head>
+<body>
+
+<h1>Tomato</h1>
+
+<a name="intro">
+<blockquote><blockquote>
+"Write one to throw away."
+<br><br>
+&nbsp;&nbsp;-- Fred Brooks
+</blockquote></blockquote>
+
+<p>&nbsp;</p>
+<p>Tomato is an experimental prototype of a Java
+application development environment.  It aims to replace text-based Java
+programming with a point-and-click visual programming language. 
+
+<p>Specialised visual programming languages have proven successful in
+niche markets or genres, such as National Instruments' <a
+href="http://www.labview.com/">LabVIEW</a>, the shader language in <a
+href="http://www.sidefx.com/">Houdini</a>, or <a
+href="http://www.toontalk.com/">ToonTalk</a>.  Visual programming has
+not yet made a significant impact on general application development.
+While efforts like Sun's <a href="http://java.sun.com/">BeanBox</a> or
+the <a href="http://www.bluej.org/">BlueJ</a> project are promising,
+they are limited in capability.  Tomato was created to explore the
+application of visual programming to general purpose development.  To
+our knowledge, Tomato is the first open source development tool of its
+kind for the Java platform.
+
+<p>The prototype works sufficiently -- though only barely -- to be
+  used to develop parts of itself.  As parts of Tomato are developed
+  in Tomato, the development process itself is being evaluated to find
+  ways to improve Tomato.  Thus, Tomato development is shaped by
+  real-world development requirements, rather than adherence to a
+  predetermined abstract design.  This process of
+  long-term ad-hoc prototyping<sup><a href="#fn1">1</a></sup> should
+  either produce a working visual programming system, or
+  leave a trail of empirical evidence to indicate why general purpose
+  visual programming systems aren't viable.
+
+<p>Once the Tomato prototype can handle most development tasks and
+  demonstrate that general purpose visual programming is viable, it
+  will be redesigned from scratch.  The next generation Tomato will be
+  developed entirely within the final evolution of the Tomato
+  prototype.
+
+
+<p>&nbsp;</p>
+<a name="features">
+<h2>Features</h2>
+
+<ul>
+
+<li>A visual programming language -- based on an "icons on strings"
+metaphor -- for creating, testing, and compiling scripts and new Java
+classes.  Java classes may be instantiated and manipulated at
+design-time, which facilitates early testing, debugging, and
+productive experimentation.  Program execution is displayed with
+dynamic visualisation -- color changes are used to indicate method
+invocation, variable assignments, etc., and these occur in real time.
+The discrete stages of designing, writing, testing, debugging, and
+compiling code are merged into a unified software modelling process.
+
+<p>The visual language supports dynamic execution of source code
+during development.  Programs can be assembled from small,
+proven-working units, each test-run during construction.  Such units
+may even continue to execute while they are assembled into a
+whole.<sup><a href="#fn2">2</a></sup> This may represent a uniquely
+powerful "run early, run always" development methodology.
+
+<p><li>An integrated development environment to manage visual source
+code and generate Java applications.  This is of a relatively
+conventional design.
+
+<p><li>A collection of useful reuseable Java classes with Java source
+code, including database-enabled derivations of the standard JFC/Swing
+widgets.  These may be used within Tomato or any other Java
+development environment.
+
+</ul>
+
+
+<p>&nbsp;</p>
+<h2>Goals</h2>
+
+<ul>
+<li>Reduce application development time.  
+
+<li>Reduce developer effort.  
+
+<li>Reduce the opportunity for syntax and logic errors.
+
+<li>Integrate prototyping, development, productive
+experimentation, and testing into the development process from the
+earliest stages.
+
+<li>Automate and/or encourage best practices.
+
+<li>Encourage the development of reuseable classes.
+
+<li>Encourage the use of meta-programming.
+</ul>
+
+
+<p>&nbsp;</p>
+
+<h2>Limitations</h2>
+
+Tomato is a work in progress.  The current release is a mostly-working
+prototype, suitable for experiments and creating simple classes
+or test scripts, but it is not ready for production.
+
+<p>Bugs are legion and the interface is clumsy.  Furthermore, the visual
+scripting and class authoring facilities are incomplete.  It <i>is</i>
+possible to write useful Java classes, but inner classes are not yet
+supported, building expressions is laborious, and parameters cannot be
+defined for new methods and constructors.  And so on.
+
+<p>The documentation, including this document, is incomplete.
+
+<p>These and other
+limitations will be addressed in future versions.
+
+<p>In other words, this tomato ain't ripe.  Tomato is being released
+at this embryonic stage in order to develop interest (or at least
+curiosity) and solicit feedback on the design.  Please don't inundate
+us with bug reports.  We know it's buggy.
+
+
+
+<p>&nbsp;</p>
+<h2>Requirements</h2>
+
+Tomato is a Java application, and should run wherever Java is
+ available.  Tomato was developed under Linux, however, and has
+ only been tested briefly under Windows.
+
+<p>You will require a version 1.4.x Java 2 Platform and
+ should have a Java compiler.
+
+<p>See the <a href="#Download">Download and
+ Installation</a> section below for URLs where you can obtain these.
+
+<p>The Java compiler is optional, but without it you
+ cannot compile new classes; you will only be able to work with
+ existing Java classes.
+
+
+<p>&nbsp;</p>
+
+<h2>License</h2>
+
+We provide a unique bit pattern known as "Tomato".  As we have no way
+of knowing how Tomato may be used, we make no claims as to its fitness
+for any particular purpose, including whatever purposes might be
+implied by or inferred from this or any other document, including
+Tomato itself. We are not responsible in any way for the use of
+Tomato. You are fully and wholly responsible for the results of any
+and all use of Tomato.
+
+<p>Tomato may not be used to test or develop applications where
+vertebrate lifeforms may be harmed by a possible malfunction.  This
+includes but is not limited to medical, weapons, and aircraft flight
+control systems.
+
+<p>The Tomato source code is released under the Gnu Public License, a
+copy of which can be found at <a
+href="http://www.gnu.org">http://www.gnu.org</a>.  
+
+<p>Classes and applications
+created using Tomato are not bound by this license.
+
+<p>"Java" is a trademark of Sun Microsystems, Inc.
+
+<p>"Windows" is a trademark of Microsoft Corporation.
+
+
+<p>&nbsp;</p>
+
+<h2>FAQ</h2>
+
+<p>None yet...
+
+
+<p>&nbsp;</p>
+<h2>Current Version</h2>
+
+The current release of Tomato is version 0.0.0-pre.
+
+
+
+<p>&nbsp;</p>
+<a name="Download">
+<h2>Download and Installation</h2>
+
+<ol>
+
+<li>Download and install the Sun Java 2 Standard Edition SDK from <a
+href="http://java.sun.com/j2se/1.4.1/download.html">http://java.sun.com/j2se/1.4.1/download.html</a>.
+Obtain the SDK, not the JRE.  The JRE (Java Runtime Edition) does not
+include the Java compiler.
+
+<p><li>(Optional) The Sun Java compiler is slow.  You may
+wish to use the Jikes compiler, which is much faster.  Obtain it from
+<a
+href="http://www-124.ibm.com/developerworks/oss/jikes/">http://www-124.ibm.com/developerworks/oss/jikes/</a>.
+Jikes is just the compiler -- you'll still need the Java 2 Platform.
+
+<p><li>Download Tomato.zip to a directory of your choice.
+<blockquote>
+HTTP download: <a href="http://www.armchair.mb.ca/~tomato/Tomato.zip">Tomato.zip</a> 
+<br>FTP download: <a href="ftp://ftp.armchair.mb.ca/pub/tomato/Tomato.zip">Tomato.zip</a>
+</blockquote>
+
+<p><li>Unzip the Tomato.zip, including all its
+subdirectories, into a directory of your choice.
+</ol>
+
+
+<p>&nbsp;</p>
+<h2>Running Tomato</h2>
+
+<p>Note: In the following instructions, replace <code>&lt;directory&gt;</code> with the directory you created
+in Step 4 under <a href="#Download">Download and Installation</a>.
+
+<p><blockquote>
+<p><b>Windows</b>:  Select "Start | Run", enter <code>java &lt;directory&gt;/Tomato</code>
+
+<p><b>UNIX or Linux</b>:  Type <code>cd &lt;directory&gt;; java Tomato</code>
+
+<p><b>MacOS</b>:  I have no idea.
+</blockquote>
+
+
+<p>&nbsp;</p>
+<h2>Getting Started</h2>
+
+Please see the <a href="start.html"><i>Tomato - Getting Started</i></a> document.
+
+
+
+<p>&nbsp;</p>
+
+<h2>Bugs</h2>
+
+So many they aren't listed...  Remember, this is a prototype!  Once
+it reaches Alpha stage, we will start logging bugs.  
+
+<p>The most annoying bug is that your visual programming source files
+-- 'Models' in the Tomato parlance -- may occasionally become corrupt
+when saved.  If you're sufficiently masochistic to use Tomato in
+production, make frequent backups.
+
+
+<p>&nbsp;</p>
+<a name="pronounce">
+<h2>Taw-MAY-toe or taw-MAH-toe?</h2>
+
+Neither.  The correct pronunciation is "TAWM-ah-toe", in order to avoid
+confusion with a popular vegetable<sup><a href="#fn3">3</a></sup> of the same spelling.
+
+
+
+<p>&nbsp;</p>
+
+<h2>Contact</h2>
+
+Comments and questions regarding Tomato should be emailed to
+<a href="mailto:tomato@armchair.mb.ca">tomato@armchair.mb.ca</a>.  Replies
+are not guaranteed, but all mails will be read.
+
+
+<p>&nbsp;</p>
+
+<h2>Footnotes</h2>
+
+<p><a name="fn1"><sup><a href="#intro">1</a></sup> I.e., "hacking" in the classic sense.
+
+<p><a name="fn2"><sup><a href="#features">2</a></sup> Modifying an
+application while it executes is an unusual and strangely exhilarating
+experience.
+
+<p><a name="fn3"><sup><a href="#pronounce">3</a></sup> Botanically, a tomato is a fruit.
+
+
+
+<p>&nbsp;</p>
+<hr>
+<font size="1">Copyright &copy; 2002 Armchair Airlines Computer Services Inc.  All Rights Reserved.</font>
+
+</body>
+</html>

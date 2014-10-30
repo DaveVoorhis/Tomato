@@ -1,0 +1,138 @@
+JVPL - An experimental visual programming language for the Java Virtual Machine.
+
+Version 0.0:
+
+- Run Shell in its own VM?
+
+- Sometimes a connection to an 'invoke' connector does
+  not link properly.
+
+- Create load-time error-handling.  A mis-load should
+  always link properly, creating 'fake' error connectors if it must.
+
+- Fix vertical repositioning of connectors.
+
+- Add VisualiserOfField, and appropriate mechanisms.  Overrides
+  getInstance to return field instance.
+
+- Break out individual control panels and control panel sections
+  as independently-useable JPanels
+
+- No more "automatic" control panels.  These must be explicitly
+  supplied.
+
+- Stretchable (or otherwise more-accessible) custom area needed.
+
+- Provide commenting facilities.
+
+- Incorporate Javadocs.
+
+- BUILD: Visualisers
+    o Save connector layout on serialization of visualisers.
+    o Facility to lock and unlock visualisers from model changes and/or
+      environmental data edits (i.e., lock the instance).
+    o Facility to globally lock and unlock a Model from model changes and/or
+      environmental data edits.
+    o Implement field visualisers.
+    o Implement property mechanism, which hides 'getX|isX/setX' access 
+      in a single, unified connector type.
+    o Option on visualiser control panel to convert an unreferenced
+      visualiser of a given type to an array of the same type.
+    o Rationalise Visualiser class design to support user inheritance.  The
+      environment must be extensible to the point of self-replacement,
+      within security limits.
+    o Dynamic class unloading may be needed to properly support class 
+      authoring in Version 0.1.
+
+- FIX: Changes to visual state still mushy, maybe due to Swing bugs, or
+  possibly (no, probably) due to my misuse of Swing.  Something about
+  threads, I bet.  Find and use SwingWorker?
+
+- BUILD: il8n.
+
+- BUILD: Take advantage of JLayeredPane ancestry of Model to properly manage
+  Z order of visualisers and connections.  Currently, this is
+  ignored and Model is treated like a JPanel, with the result
+  that overlapping connections and visualisers display oddly.
+
+Version 0.1:
+
+- Provide a control panel option to create a special visualiser from an
+  abstract class or a non-abstract class with abstract methods.  The abstract 
+  methods may optionally be overridden.  An overridden abstract method becomes 
+  a trigger visualiser, which may be used to activate message visualisers.  
+  This represents the most lightweight form of user-defined inner class; 
+  ideal for implementing Java listeners.
+
+- Provide a means to collapse multiple visualisers into a single
+  construct that looks like an ordinary class visualiser,
+  but which may be edited in its own Model.  This is a general purpose 
+  inner class.  It would be helpful to be able to drag and drop visualisers 
+  to and from its parent Model.
+
+- Provide a means to create message visualisers of arbitrary complexity,
+  including those that encapsulate their own local objects, etc.  This
+  may be done within its own Model, as above.
+
+- Provide flow control constructs equivalent to case statements, conditionals, 
+  etc.  When this version is complete, it should be possible to develop Java 
+  entirely within the environment.  Ideally, all subsequent versions and
+  additions should or could be developed within the environment.
+
+Version 0.2:
+
+- Implement visualisers for wrapping the environment itself, thus making 
+  it self-programmable.
+
+- Implement a proper library.  The current 'library' is a sham; it merely
+  stores class names.  The library should act as a repository of
+  loadable classes and general resources, while still supporting class names.  
+  Version management, and maybe support for micropay facilities, 
+  should be handled by the library.
+
+- Provide better array visualisation, MAYBE.  An array might be considered
+  a legacy container format, no more or less worthy of special
+  visualisers than any other container.
+
+Version 0.3:
+
+- GOODIES: App, applet, jar and class deployment mechanisms.
+
+- GOODIES: Polynomials, linear amplifiers (scales a1 to a2), 
+  non-linear amplifiers, clippers, discrete translators, timelines, adders, 
+  substractors, matrix math, expression builders, etc.  This is where it 
+  gets powerful, and much can be obtained from existing open source or
+  closed source freely-distributable classes.  Ideally, the library
+  should contain links to source's Web sites or resources.
+
+- GOODIES: Classes to improve debugging.
+
+- GOODIES: SQL and database classes with visualisers for tables, 
+  relationships, queries, forms, etc.
+
+Pre-Release test cycle 0.4 - 0.8:
+
+- Alpha test
+
+- Beta test
+
+- Security audit
+
+Release Candidate 0.9:
+
+- Final user feedback incorporation.
+
+- Final security audit incorporation.
+
+- Final security audit.
+
+Release 1.0:
+
+- User feedback incorporation.
+
+Future:
+
+- Market-specific classes: Multimedia, game, graphics, engineering, math, etc.
+
+- Re-implement core engine to optionally provide visualisation in VM 'a' 
+  of objects living in VM 'b'.

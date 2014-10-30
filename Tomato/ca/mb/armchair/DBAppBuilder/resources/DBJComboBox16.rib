@@ -1,0 +1,127 @@
+##RenderMan RIB-Structure 1.0
+version 3.03
+Display "/home/creatist/DBAppBuilder/resources/DBJComboBox16.tiff" "file" "rgba"
+Imager "clamptoalpha"
+Format 16 16 -1
+Projection "perspective" "fov" [90]
+FrameAspectRatio 1
+ScreenWindow -0.2 0.2 -0.2 0.2
+Identity
+# rh->lh
+Scale -1 1 1
+# Camera!
+Rotate -15.0791 1 0 0 
+Rotate 135 0 1 0 
+Translate -9.43409 -3.579 -8.90698 
+PixelSamples 2 2
+PixelFilter "gaussian" 2 2
+Exposure 1 1
+Quantize "rgba" 255 0 255 0.5
+Option "render" "minsamples" [4 ]
+Option "render" "maxsamples" [64 ]
+Option "render" "max_raylevel" [4 ]
+Option "render" "minshadowbias" [0.01]
+Option "render" "prmanspecular" [1 ]
+Option "radiosity" "steps" [0 ]
+Option "radiosity" "minpatchsamples" [2 ]
+Option "limits" "texturememory" [10000 ]
+Option "limits" "geommemory" [40000 ]
+WorldBegin
+# Lights!
+TransformBegin
+ConcatTransform [1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1]
+Attribute "light" "shadows" ["on"]
+Declare "intensity" "float"
+Declare "lightcolor" "color"
+Declare "from" "point"
+LightSource "pointlight" 1 "intensity" [64] "lightcolor" [1 0.392157 0.392157] "from" [0 0 10]
+Illuminate 1 1
+TransformEnd
+TransformBegin
+ConcatTransform [1 0 0 0 0 1 0 0 0 0 1 0 7.84 12.64 10.24 1]
+Attribute "light" "shadows" ["on"]
+Declare "intensity" "float"
+Declare "lightcolor" "color"
+Declare "from" "point"
+LightSource "pointlight" 2 "intensity" [200] "lightcolor" [0.705882 0.784314 1] "from" [0 0 0]
+Illuminate 2 1
+TransformEnd
+Identity
+# Action!
+Surface "matte"
+AttributeBegin
+TransformBegin
+Translate -0.62 1.96 0.04 
+Rotate -90 0 1 0 
+Scale 1 1 4.8
+SolidBegin "primitive"
+TransformBegin
+Scale 1 1 1
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+Rotate 90 0 0 1 
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+Rotate 90 0 0 1 
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+Rotate 90 0 0 1 
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+Rotate 90 0 1 0 
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+Rotate 180 0 1 0 
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+TransformEnd
+SolidEnd
+TransformEnd
+AttributeEnd
+AttributeBegin
+TransformBegin
+Translate 2.78 1.66 0.02 
+Rotate 89.5836 1 0 0 
+Scale 0.851498 0.851498 0.851498
+SolidBegin "primitive"
+Cone 1 1 360
+AttributeBegin
+ReverseOrientation
+Disk 0 1 360
+AttributeEnd
+SolidEnd
+TransformEnd
+AttributeEnd
+AttributeBegin
+TransformBegin
+Translate 2.78 1.88 0.02 
+Rotate -90 1 0 0 
+Scale 0.289152 0.289152 0.578305
+SolidBegin "primitive"
+Cylinder 1 -1 1 360
+AttributeBegin
+ReverseOrientation
+Disk -1 1 360
+AttributeEnd
+Disk 1 1 360
+SolidEnd
+TransformEnd
+AttributeEnd
+AttributeBegin
+TransformBegin
+Translate -0.42 -0.72 -0.16 
+Scale 3.73139 3.45577 0.635639
+SolidBegin "primitive"
+TransformBegin
+Scale 1 1 1
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+Rotate 90 0 0 1 
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+Rotate 90 0 0 1 
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+Rotate 90 0 0 1 
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+Rotate 90 0 1 0 
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+Rotate 180 0 1 0 
+Patch "bilinear" "P" [0.5 0.5 0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5]
+TransformEnd
+SolidEnd
+TransformEnd
+AttributeEnd
+WorldEnd
+

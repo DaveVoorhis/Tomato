@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.1-rc" class="java.beans.XMLDecoder"> 
+ <object class="ca.mb.armchair.JVPL.ModelSerializable"> 
+  <void property="connectionCount"> 
+   <int>14</int> 
+  </void> 
+  <void property="modifierString"> 
+   <string>public class</string> 
+  </void> 
+  <void property="visualiserCount"> 
+   <int>13</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>1</long> 
+  </void> 
+  <void property="VType"> 
+   <string>java.lang.Integer</string> 
+  </void> 
+  <void property="modifierString"> 
+   <string>private</string> 
+  </void> 
+  <void property="name"> 
+   <string>I1</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>1</int> 
+  </void> 
+  <void property="serializedInstance"> 
+   <string>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4gCjxqYXZhIHZlcnNpb249IjEuNC4xLXJjIiBjbGFzcz0iamF2YS5iZWFucy5YTUxEZWNvZGVyIj4gCiA8aW50PjM0MTQxNDwvaW50PiAKPC9qYXZhPiAK</string> 
+  </void> 
+  <void property="xpos"> 
+   <int>542</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>44</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>2</long> 
+  </void> 
+  <void property="message"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="modifierString"> 
+   <string>public</string> 
+  </void> 
+  <void property="name"> 
+   <string>M5</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>4</int> 
+  </void> 
+  <void property="xpos"> 
+   <int>263</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>121</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>5</long> 
+  </void> 
+  <void property="VType"> 
+   <string>java.lang.String</string> 
+  </void> 
+  <void property="modifierString"> 
+   <string>private</string> 
+  </void> 
+  <void property="name"> 
+   <string>S3</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>1</int> 
+  </void> 
+  <void property="serializedInstance"> 
+   <string>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4gCjxqYXZhIHZlcnNpb249IjEuNC4xLXJjIiBjbGFzcz0iamF2YS5iZWFucy5YTUxEZWNvZGVyIj4gCiA8c3RyaW5nPjM0MTQxMzwvc3RyaW5nPiAKPC9qYXZhPiAK</string> 
+  </void> 
+  <void property="xpos"> 
+   <int>386</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>218</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>7</long> 
+  </void> 
+  <void property="counted"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="gated"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="message"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="modifierString"> 
+   <string>public</string> 
+  </void> 
+  <void property="name"> 
+   <string>M6</string> 
+  </void> 
+  <void property="repeated"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>4</int> 
+  </void> 
+  <void property="xpos"> 
+   <int>68</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>331</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>10</long> 
+  </void> 
+  <void property="VType"> 
+   <string>java.lang.Long</string> 
+  </void> 
+  <void property="modifierString"> 
+   <string>private</string> 
+  </void> 
+  <void property="name"> 
+   <string>L1</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>1</int> 
+  </void> 
+  <void property="serializedInstance"> 
+   <string>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4gCjxqYXZhIHZlcnNpb249IjEuNC4xLXJjIiBjbGFzcz0iamF2YS5iZWFucy5YTUxEZWNvZGVyIj4gCiA8bG9uZz4zNDE0MTQ8L2xvbmc+IAo8L2phdmE+IAo=</string> 
+  </void> 
+  <void property="xpos"> 
+   <int>215</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>383</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>12</long> 
+  </void> 
+  <void property="VType"> 
+   <string>java.lang.Boolean</string> 
+  </void> 
+  <void property="modifierString"> 
+   <string>private</string> 
+  </void> 
+  <void property="name"> 
+   <string>B1</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>1</int> 
+  </void> 
+  <void property="serializedInstance"> 
+   <string>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4gCjxqYXZhIHZlcnNpb249IjEuNC4xLXJjIiBjbGFzcz0iamF2YS5iZWFucy5YTUxEZWNvZGVyIj4gCiA8Ym9vbGVhbj5mYWxzZTwvYm9vbGVhbj4gCjwvamF2YT4gCg==</string> 
+  </void> 
+  <void property="xpos"> 
+   <int>39</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>428</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>13</long> 
+  </void> 
+  <void property="invokesAfterReferenceChange"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="message"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="modifierString"> 
+   <string>public</string> 
+  </void> 
+  <void property="name"> 
+   <string>M4</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>4</int> 
+  </void> 
+  <void property="xpos"> 
+   <int>206</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>514</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>15</long> 
+  </void> 
+  <void property="VType"> 
+   <string>java.lang.String</string> 
+  </void> 
+  <void property="modifierString"> 
+   <string>private</string> 
+  </void> 
+  <void property="name"> 
+   <string>S2</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>1</int> 
+  </void> 
+  <void property="serializedInstance"> 
+   <string>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4gCjxqYXZhIHZlcnNpb249IjEuNC4xLXJjIiBjbGFzcz0iamF2YS5iZWFucy5YTUxEZWNvZGVyIj4gCiA8c3RyaW5nPjUzNWE2PC9zdHJpbmc+IAo8L2phdmE+IAo=</string> 
+  </void> 
+  <void property="xpos"> 
+   <int>388</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>581</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>44</long> 
+  </void> 
+  <void property="invokesAfterReferenceChange"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="message"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="modifierString"> 
+   <string>public</string> 
+  </void> 
+  <void property="name"> 
+   <string>M2</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>4</int> 
+  </void> 
+  <void property="xpos"> 
+   <int>439</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>628</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>45</long> 
+  </void> 
+  <void property="VType"> 
+   <string>java.lang.String</string> 
+  </void> 
+  <void property="modifierString"> 
+   <string>private</string> 
+  </void> 
+  <void property="name"> 
+   <string>S1</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>1</int> 
+  </void> 
+  <void property="serializedInstance"> 
+   <string>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4gCjxqYXZhIHZlcnNpb249IjEuNC4xLXJjIiBjbGFzcz0iamF2YS5iZWFucy5YTUxEZWNvZGVyIj4gCiA8c3RyaW5nPjUzNWE2PC9zdHJpbmc+IAo8L2phdmE+IAo=</string> 
+  </void> 
+  <void property="xpos"> 
+   <int>765</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>605</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>58</long> 
+  </void> 
+  <void property="invokesAfterReferenceChange"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="message"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="modifierString"> 
+   <string>public</string> 
+  </void> 
+  <void property="name"> 
+   <string>M3</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>4</int> 
+  </void> 
+  <void property="xpos"> 
+   <int>489</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>411</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>59</long> 
+  </void> 
+  <void property="VType"> 
+   <string>java.lang.Integer</string> 
+  </void> 
+  <void property="modifierString"> 
+   <string>private</string> 
+  </void> 
+  <void property="name"> 
+   <string>I2</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>1</int> 
+  </void> 
+  <void property="serializedInstance"> 
+   <string>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4gCjxqYXZhIHZlcnNpb249IjEuNC4xLXJjIiBjbGFzcz0iamF2YS5iZWFucy5YTUxEZWNvZGVyIj4gCiA8aW50PjM0MTQxNDwvaW50PiAKPC9qYXZhPiAK</string> 
+  </void> 
+  <void property="xpos"> 
+   <int>724</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>364</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>60</long> 
+  </void> 
+  <void property="invokesAfterParmChange"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="message"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="modifierString"> 
+   <string>public</string> 
+  </void> 
+  <void property="name"> 
+   <string>M1</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>4</int> 
+  </void> 
+  <void property="xpos"> 
+   <int>713</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>200</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>2</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>public java.lang.String java.lang.Integer.toString()</string> 
+    </void> 
+    <void property="targetParameterNumber"> 
+     <int>-1</int> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>1</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>5</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>class java.lang.String</string> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>2</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>7</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>public void ca.mb.armchair.JVPL.VisualiserOfMessage.invoke()</string> 
+    </void> 
+    <void property="targetParameterNumber"> 
+     <int>-1</int> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>2</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>10</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>class java.lang.Long</string> 
+    </void> 
+    <void property="targetParameterNumber"> 
+     <int>10001</int> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>7</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>10</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>long</string> 
+    </void> 
+    <void property="targetParameterNumber"> 
+     <int>1</int> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>13</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>12</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>class java.lang.Boolean</string> 
+    </void> 
+    <void property="targetParameterNumber"> 
+     <int>10000</int> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>7</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>13</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>public static java.lang.String java.lang.Long.toHexString(long)</string> 
+    </void> 
+    <void property="targetParameterNumber"> 
+     <int>-1</int> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>10</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>15</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>class java.lang.String</string> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>13</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>44</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>public java.lang.String java.lang.String.toString()</string> 
+    </void> 
+    <void property="targetParameterNumber"> 
+     <int>-1</int> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>15</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>45</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>class java.lang.String</string> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>44</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>58</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>public int java.lang.Long.intValue()</string> 
+    </void> 
+    <void property="targetParameterNumber"> 
+     <int>-1</int> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>10</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>59</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>int</string> 
+    </void> 
+    <void property="targetParameterNumber"> 
+     <int>1</int> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>60</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>59</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>int</string> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>58</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.ConnectionSerializable"> 
+  <void property="sourceVisualiser"> 
+   <long>60</long> 
+  </void> 
+  <void property="target"> 
+   <object class="ca.mb.armchair.JVPL.TargetSerializable"> 
+    <void property="targetConnector"> 
+     <string>public java.lang.Integer(int)</string> 
+    </void> 
+    <void property="targetParameterNumber"> 
+     <int>-1</int> 
+    </void> 
+    <void property="targetVisualiser"> 
+     <long>1</long> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 

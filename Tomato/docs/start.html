@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Tomato -- Getting Started</title>
+</head>
+  <body>
+    
+<h1>Tomato -- Getting Started</h1>
+   This is an unfinished document.  For now, some quick screenshots and brief 
+descriptions.  Hope this is helpful...<br>
+ <br>
+Click <a href="index.html">here</a> to return to the Tomato home page.<br>
+ 
+
+<p>&nbsp;</p>
+
+<h2>Loading and Running the Examples</h2>
+ 
+<p>Once Tomato is started and the splash screen has vanished, you'll see something
+like this:<br>
+ <br>
+ <img src="s01.jpg">
+ <br>
+ </p>
+ 
+<p>The window is divided into four quadrants.<br>
+ </p>
+ 
+<p>The upper left is the Explorer. &nbsp;The Explorer lets you browse filesystems, 
+select visual source files for editing, create new files, and select classes 
+to load.<br>
+ </p>
+ 
+<p>The lower left is the Log. &nbsp;The Log records system messages.<br>
+ </p>
+ 
+<p>The upper right is the Editor. &nbsp;Visual programming language source 
+code -- called "Models" -- are edited here.<br>
+ </p>
+ 
+<p>The lower right is for Properties. &nbsp;Context-sensitive settings are 
+changed here.<br>
+ </p>
+ 
+<p>The four quadrants can be resized via the divider bars, or via the "View" 
+and "Windows" main menu options.<br>
+ </p>
+ 
+<p>A mouse click anywhere in the Explorer will display the current project 
+settings in the Properties quadrant:<br>
+ </p>
+ 
+<p>   <img src="s02.jpg">
+ <br>
+ </p>
+ 
+<p>The Compiler has been set to Jikes in this example. &nbsp;If you don't 
+have the Jikes compiler, leave the setting at its default "javac".<br>
+ </p>
+ 
+<p>Before you can load existing visual source files or create new ones, you'll 
+need to mount a directory. &nbsp;Click on the "Mount Directory" button in 
+the Properties quadrant.<br>
+ </p>
+ 
+<p>A dialog box like will appear like the one shown below. &nbsp;Select an 
+appropriate directory. &nbsp;For now, we recommend mounting the 'examples' 
+subdirectory from the directory in which you installed Tomato.<br>
+ </p>
+ 
+<p><img src="s03.jpg">
+ <br>
+ </p>
+ 
+<p>By clicking on the "File Systems" tab in the Explorer, you can see the 
+newly-mounted directory. &nbsp;Double-click on it to open it.<br>
+ </p>
+ 
+<p>You can right-click on each of the files to display the available options:<br>
+ </p>
+ 
+<p><img src="s04.jpg">
+ <br>
+ </p>
+ 
+<p>If you select "Edit" (or double-click on an entry), the Model will be loaded
+into the Editor quadrant. &nbsp;Its properties will be shown in the Properties
+quadrant.<br>
+ </p>
+ 
+<p> <img src="s05.jpg">
+ <br>
+ </p>
+ 
+<p>The scrollbars in the Editor quadrant can be used to reposition the view. 
+&nbsp;Alternatively, you can click and drag on the Editor's background and 
+slide the view. &nbsp;In this example, move down a bit to expose the "newBrowser" 
+method in the "Browser" model.<br>
+ </p>
+ 
+<p>Now click on the green arrow in the "newBrowser" method. &nbsp;This causes 
+execution to start at that point.<br>
+ </p>
+ 
+<p><img src="s06.jpg">
+ <br>
+ </p>
+ 
+<p>After a few moments (depending on the speed of your Internet connection), 
+you will see a Web page appear in a window:<br>
+ </p>
+ 
+<p> <img src="s07.jpg">
+ <br>
+ </p>
+ 
+<p>The example implements a very simple Web browser.<br>
+ </p>
+ 
+
+<p>&nbsp;</p>
+ 
+<h2>Creating a New Model</h2>
+ Starting from the previous example, close the "Browser" tab in the Editor 
+quadrant. &nbsp;Do this by right-clicking on the tab to bring up the 'close' 
+option. &nbsp;Then right click on the mounted directory in the Explorer quadrant. 
+&nbsp;You should see something like the following:<br>
+ 
+<p><img src="s09.jpg">
+ <br>
+ </p>
+ 
+<p>Select "New Class" from the menu. &nbsp;A dialog box, asking you for the 
+new class name, will appear:<br>
+ </p>
+ 
+<p> <img src="s10.jpg">
+ <br>
+ </p>
+ 
+<p>Enter a suitable class name. &nbsp;In this example, we've used "MyFirstModel".<br>
+ </p>
+ 
+<p> <img src="s11.jpg">
+ <br>
+ </p>
+ 
+<p>The new model appears as an empty tab in the Editor quadrant. &nbsp;Select 
+the "Classes" tab in the Explorer quadrant.
+
+<p>Double-click on the 'int' class:
+ </p>
+ 
+<p><img src="s12.jpg">
+ <br>
+ </p>
+ 
+<p>A visual representation of the class appears in the Editor quadrant. &nbsp;Options 
+associated with the class appear in the Properties quadrant:<br>
+ </p>
+ 
+<p><img src="s13.jpg">
+ <br>
+ </p>
+ 
+<p>Now click on the "Methods" tab in the Properties quadrant. &nbsp;This displays
+all methods supported by the selected class:<br>
+ </p>
+ 
+<p> <img src="s14.jpg">
+ <br>
+ </p>
+ 
+<p>Double-click on the "toHexString" method, as shown above.<br>
+ </p>
+ 
+<p>The method will appear as a connector on the selected class.<br>
+ </p>
+ 
+<p> <img src="s15.jpg">
+ <br>
+ </p>
+ 
+<p>Click on the connector. &nbsp;Several classes will automatically appear
+-- those necessary to invoke the 'toHexString' method:</p>
+ 
+<p><img src="s16.jpg">
+ <br>
+ </p>
+ 
+<p>Click and drag the classes to arrange them into a more palatable form:<br>
+ </p>
+ 
+<p><img src="s17.jpg">
+ <br>
+ </p>
+ 
+<p>Double click on the Rjava.lang.String connector. &nbsp;This represents 
+the return value from the 'toHexString' method invocation.<br>
+ </p>
+ 
+<p> <img src="s18.jpg">
+ <br>
+ </p>
+ 
+<p>Now type an integer value into the java.lang.Integer class on the left:<br>
+ </p>
+ 
+<p> <img src="s19.jpg">
+ <br>
+ </p>
+ 
+<p>Press the green arrow to invoke the method. &nbsp;In the example, the value
+123 has been converted to 7b.<br>
+ </p>
+ 
+<p align="center"><b>TO BE CONTINUED...</b><br>
+    </p>
+ <br>
+ <br>
+</body>
+</html>

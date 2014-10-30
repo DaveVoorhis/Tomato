@@ -1,0 +1,2 @@
+#!/bin/sh
+java ca/mb/armchair/DBAppBuilder/Utilities/DBUtility

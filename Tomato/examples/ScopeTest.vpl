@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.1-rc" class="java.beans.XMLDecoder"> 
+ <object class="ca.mb.armchair.JVPL.ModelSerializable"> 
+  <void property="modifierString"> 
+   <string>public class</string> 
+  </void> 
+  <void property="visualiserCount"> 
+   <int>1</int> 
+  </void> 
+ </object> 
+ <object class="ca.mb.armchair.JVPL.VisualiserSerializable"> 
+  <void property="ID"> 
+   <long>1</long> 
+  </void> 
+  <void property="VType"> 
+   <string>java.lang.Integer</string> 
+  </void> 
+  <void property="modifierString"> 
+   <string>protected</string> 
+  </void> 
+  <void property="name"> 
+   <string>java.lang.Integer1</string> 
+  </void> 
+  <void property="serializationMode"> 
+   <int>1</int> 
+  </void> 
+  <void property="xpos"> 
+   <int>141</int> 
+  </void> 
+  <void property="ypos"> 
+   <int>183</int> 
+  </void> 
+ </object> 
+</java> 
